@@ -1,0 +1,1 @@
+﻿package com.starz.view.components{	public class DragDropTarget extends SimpleMC	{		public function DragDropTarget()		{			init();		}		private function init():void		{			hidden = false;		}		public function receiveDrop(o$:DragDropMC):void		{					}		public function giveHint():void		{					}	}}

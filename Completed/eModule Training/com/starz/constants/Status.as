@@ -1,0 +1,1 @@
+﻿package com.starz.constants {		public class Status {		public static const LOCATION_OPEN:String = 'LOCATION_OPEN';		public static const LOCATION_CLOSED:String = 'LOCATION_CLOSED';			}	}

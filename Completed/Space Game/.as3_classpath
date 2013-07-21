@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">playerglobal.swc</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">flex.swc</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">framework.swc</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">rpc.swc</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">utilities.swc</AS3Classpath>
+    <AS3Classpath generateProblems="true" type="source" useAsSharedCode="false">source</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="source" useAsSharedCode="false">AS3_CORE</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="source" useAsSharedCode="false">STARZ_CORE</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="source" useAsSharedCode="false">TWEEN_ENGINE</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="source" useAsSharedCode="false">Flex_3_SDK_0</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">AS3_CORE/playerglobal.swc</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">bin/ASSETS_SpaceGame.swc</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">bin/ASSETS_TriviaDTV.swc</AS3Classpath>
+    <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">STARZ_CORE/com/starz/core/media/video/swk/ASSETS_VideoPlayerLite.swc</AS3Classpath>
+</AS3Classpath>

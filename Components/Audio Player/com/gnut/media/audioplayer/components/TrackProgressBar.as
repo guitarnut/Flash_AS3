@@ -1,0 +1,1 @@
+﻿package com.gnut.media.audioplayer.components{	import flash.display.MovieClip;	public class TrackProgressBar	{		private var _v:MovieClip;		public function TrackProgressBar($mc:MovieClip)		{			_v = $mc;		}		public function updateProgress($s:Number):void		{			_v.mc_progress.scaleX = $s;		}	}}

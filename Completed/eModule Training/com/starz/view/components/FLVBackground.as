@@ -1,0 +1,1 @@
+﻿package com.starz.view.components{	import flash.display.MovieClip;	public class FLVBackground extends MovieClip	{		public function FLVBackground()		{			init();		}		private function init():void		{			stop();		}		public function playBG():void		{			play();		}		public function stopBG():void		{			stop();		}	}}

@@ -1,0 +1,1 @@
+﻿package com.gnut.media.audioplayer.components{	public class SkipButton extends AudioPlayerButton	{		public function SkipButton($mc)		{			super($mc);			init();		}		private function init():void		{		}	}}

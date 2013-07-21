@@ -1,0 +1,1 @@
+﻿package com.gnut.media.audioplayer.components{	import flash.display.MovieClip;	public class EQBar extends MovieClip	{		private var _v:MovieClip;		public function EQBar()		{			init();		}		private function init():void		{		}	}}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gameData>
+<!-- These are the items required to complete the level -->
+  <required>
+    <movie name="30 Days of Night" source="images/MovieOne.jpg" type="movie" />
+    <movie name="The Bourne Identity" source="images/MovieTwo.jpg" type="movie" />
+	<item name="Benefit One" source="images/Benefit1.png" type="benefit" />
+	<item name="Benefit One" source="images/Benefit2.png" type="benefit" />
+	<item name="Spartacus" source="images/Spartacus.png" type="original" />
+  </required>
+<!-- These are additional items not required to complete the level -->
+  <items>
+    <item name="Bad Icon" source="images/BadIcon.png" type="bad" />
+	<item name="Bad Icon" source="images/BadIcon.png" type="bad" />
+	<item name="Bad Icon" source="images/BadIcon.png" type="bad" />
+	<item name="Bad Icon" source="images/BadIcon.png" type="bad" />
+	<item name="Bad Icon" source="images/BadIcon.png" type="bad" />
+	<item name="Good Icon" source="images/Bonus.png" type="good" />
+	<item name="Good Icon" source="images/Bonus.png" type="good" />
+	<item name="Good Icon" source="images/Bonus.png" type="good" />
+	<item name="Good Icon" source="images/Bonus.png" type="good" />
+	<item name="Good Icon" source="images/Bonus.png" type="good" />
+	<item name="Good Icon" source="images/Bonus.png" type="good" />
+	<item name="Good Icon" source="images/Bonus.png" type="good" />
+	<item name="Good Icon" source="images/Bonus.png" type="good" />
+	<item name="Bonus" source="images/SuperBonus.png" type="bonus" />
+	<item name="Bonus" source="images/SuperBonus.png" type="bonus" />
+  </items>
+</gameData>

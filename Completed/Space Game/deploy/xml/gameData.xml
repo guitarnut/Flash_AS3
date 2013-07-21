@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gameData>
+  <movies>
+    <movie name="30 Days of Night" source="images/MovieOne.jpg" moviePath="http://www.starz.com/videos/District9trailer.flv" type="movie" />
+    <movie name="The Bourne Identity" source="images/MovieTwo.jpg" type="movie" />
+    <movie name="College Road Trip" source="images/MovieThree.jpg" type="movie" />
+    <movie name="Donnie Darko" source="images/MovieFour.jpg" type="movie" />
+  </movies>
+  <items>
+    <item name="Good Icon" source="images/GoodIcon.png" type="good" />
+    <item name="Bad Icon" source="images/BadIcon.png" type="bad" />
+    <item name="Bonus Icon" source="images/BonusIcon.png" type="bonus" />
+  </items>
+</gameData>
