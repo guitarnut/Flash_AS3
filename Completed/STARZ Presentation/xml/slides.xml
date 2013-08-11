@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slideData>
+	<!--<slide>
+		<slideName>Name</slideName>
+		<type>image</type>
+		<assets>
+			<image>images/BKS1-TW-Presentation-WIP_073013.jpg</image>
+		</assets>
+		<caption>This is the slide</caption>
+	</slide>-->
+	<slide>
+		<slideName>Name</slideName>
+		<type>video</type>
+		<assets>
+			<video height="800" width="600">videos/31542_BKS1_Key_Art_Tease.f4v</video>
+		</assets>
+		<caption>This is the slide</caption>
+	</slide>
+</slideData>
