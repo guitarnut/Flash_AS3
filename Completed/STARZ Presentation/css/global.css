@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #000;
+}
+
+#content {
+	width: 1024px;
+	height: auto;
+	overflow: visible;
+	margin: 0 auto 0 auto;
+	position: relative;
+}

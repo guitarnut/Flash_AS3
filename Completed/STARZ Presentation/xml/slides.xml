@@ -1,19 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <slideData>
-	<!--<slide>
-		<slideName>Name</slideName>
+	<slide>
+		<slideName></slideName>
 		<type>image</type>
 		<assets>
 			<image>images/BKS1-TW-Presentation-WIP_073013.jpg</image>
 		</assets>
-		<caption>This is the slide</caption>
-	</slide>-->
+		<caption></caption>
+	</slide>
 	<slide>
-		<slideName>Name</slideName>
+		<slideName></slideName>
+		<type>image</type>
+		<assets>
+			<image>images/BKS1-TW-Presentation-WIP_07301310.jpg</image>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>image</type>
+		<assets>
+			<image>images/BKS1-TW-Presentation-WIP_07301311.jpg</image>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>image</type>
+		<assets>
+			<image>images/BKS1-TW-Presentation-WIP_07301312.jpg</image>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>image</type>
+		<assets>
+			<image>images/BKS1-TW-Presentation-WIP_07301313.jpg</image>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>image</type>
+		<assets>
+			<image>images/BKS1-TW-Presentation-WIP_07301314.jpg</image>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>image</type>
+		<assets>
+			<image>images/BKS1-TW-Presentation-WIP_07301315.jpg</image>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>image</type>
+		<assets>
+			<image>images/BKS1-TW-Presentation-WIP_07301316.jpg</image>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>image</type>
+		<assets>
+			<image>images/BKS1-TW-Presentation-WIP_07301317.jpg</image>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>image</type>
+		<assets>
+			<image>images/BKS1-TW-Presentation-WIP_07301318.jpg</image>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>image</type>
+		<assets>
+			<image>images/BKS1-TW-Presentation-WIP_0730132.jpg</image>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>image</type>
+		<assets>
+			<image>images/BKS1-TW-Presentation-WIP_0730133.jpg</image>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>image</type>
+		<assets>
+			<image>images/BKS1-TW-Presentation-WIP_0730134.jpg</image>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>image</type>
+		<assets>
+			<image>images/BKS1-TW-Presentation-WIP_0730135.jpg</image>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>image</type>
+		<assets>
+			<image>images/BKS1-TW-Presentation-WIP_0730136.jpg</image>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>image</type>
+		<assets>
+			<image>images/BKS1-TW-Presentation-WIP_0730137.jpg</image>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>image</type>
+		<assets>
+			<image>images/BKS1-TW-Presentation-WIP_0730138.jpg</image>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>image</type>
+		<assets>
+			<image>images/BKS1-TW-Presentation-WIP_0730139.jpg</image>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
 		<type>video</type>
 		<assets>
-			<video height="800" width="600">videos/31542_BKS1_Key_Art_Tease.f4v</video>
+			<video width="1600" height="900" >videos/Key_Art_Tease.f4v</video>
 		</assets>
-		<caption>This is the slide</caption>
+		<caption></caption>
 	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>video</type>
+		<assets>
+			<video width="1600" height="900" >videos/black_sails_trailer.f4v</video>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>video</type>
+		<assets>
+			<video width="1600" height="900" >videos/BlackSailsDenverClip.f4v</video>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>video</type>
+		<assets>
+			<video width="1600" height="900" >videos/sales_sizzle.f4v</video>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>video</type>
+		<assets>
+			<video width="1600" height="900" >videos/T_Stevens.f4v</video>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>video</type>
+		<assets>
+			<video width="1600" height="900" >videos/Stereo_Clip.f4v</video>
+		</assets>
+		<caption></caption>
+	</slide>
+	<slide>
+		<slideName></slideName>
+		<type>video</type>
+		<assets>
+			<video width="1600" height="900" >videos/TicTicBoom.f4v</video>
+		</assets>
+		<caption></caption>
+	</slide>
+	
 </slideData>
