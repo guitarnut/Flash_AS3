@@ -1,11 +1,11 @@
 ﻿package com.gnut.utils {
 	import flash.display.Stage;
 	import flash.events.KeyboardEvent;
-	import flash.events.EventDispatcher;
-	import flash.events.Event;
 	import flash.ui.Keyboard;
+	import flash.display.Sprite;
+	import com.gnut.events.PresentationEvent;
 	
-	public class UIKeyboardCommands {
+	public class UIKeyboardCommands extends Sprite {
 		
 		private var _stage:Stage;
 		private var _keycode:uint;
@@ -15,6 +15,7 @@
 		}
 		private function init($s:Stage):void {
 			_stage = $s;
+			addListeners();
 		}
 		private function addListeners():void {
 			_stage.addEventListener(KeyboardEvent.KEY_DOWN, handleKeypress);		
@@ -24,7 +25,14 @@
 		}
 		private function handleKeypress(e:KeyboardEvent):void {
 			_keycode = e.keyCode;
-			EventDispatcher.dispatchEvent(new Event(Event.CHANGE));
+			
+			if(_keycode == 37) {
+				dispatchEvent(new PresentationEvent(PresentationEvent.GO_BACK));
+			}
+			
+			if(_keycode == 39) {
+				dispatchEvent(new PresentationEvent(PresentationEvent.ADVANCE));
+			}
 		}
 		public function set listening($b:Boolean):void {
 			if($b) {

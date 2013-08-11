@@ -52,6 +52,8 @@
 		}
 		private function loadVideo():void {
 			_flv = new FLVPlayback();
+			_flv.fullScreenTakeOver = false;
+			_flv.autoPlay = false;
 			_flv.source = _asset;
 			_flv.pause();
 			_flv.width = _videosettings.width;
@@ -67,8 +69,11 @@
 			_flv.play();
 		}
 		private function stopVideo():void {
-			_flv.seek(0);
-			_flv.pause();
+			if(_flv) {
+				_flv.stop();
+				_flv.seek(0);
+
+			}
 		}
 		private function assetLoaded(e:Event):void {
 			e.target.removeEventListener(Event.COMPLETE, assetLoaded);
@@ -80,16 +85,17 @@
 		}
 		private function slideReady():void {
 			_ready = true;
-			
+	
+			dispatchEvent(new PresentationEvent(PresentationEvent.SLIDE_READY));
+		}
+		private function playSlide():void {			
 			if(_type == Application.VIDEO_SLIDE) {
 				playVideo();
 			}
-			
-			dispatchEvent(new PresentationEvent(PresentationEvent.SLIDE_READY));
 		}
 		public function show():void {
 			visible = true;
-			new TweenLite(this, TRANSITION_SPEED, {alpha: 1, onComplete: slideReady});		
+			new TweenLite(this, TRANSITION_SPEED, {alpha: 1, onComplete: playSlide});		
 		}
 		public function hide():void {
 			stopVideo();

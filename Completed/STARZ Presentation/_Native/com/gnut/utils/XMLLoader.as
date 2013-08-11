@@ -5,6 +5,7 @@
 	import flash.events.EventDispatcher;
 	import flash.display.Sprite;
 	import flash.events.IOErrorEvent;
+	import com.gnut.Application;
 	
 	public class XMLLoader extends Sprite {
 		private var _filePath:String;
@@ -41,7 +42,7 @@
 			trace(e);
 		}
 		public function set file($f):void {
-			_filePath = $f;
+			_filePath = Application.BASE_PATH+$f;
 			loadXML();
 		}
 		public function get data():XML {

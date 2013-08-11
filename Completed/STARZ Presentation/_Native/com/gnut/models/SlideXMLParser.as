@@ -23,10 +23,10 @@
 				
 				switch(String($x.type).toLowerCase()) {
 					case 'image':
-						$t = Application.IMAGE_SLIDE;
+						$t = Application.BASE_PATH+Application.IMAGE_SLIDE;
 						break;
 					case 'video':
-						$t = Application.VIDEO_SLIDE;
+						$t = Application.BASE_PATH+Application.VIDEO_SLIDE;
 						$v_settings = new Object();
 						$v_settings.height = $x.assets.video.@height;
 						$v_settings.width = $x.assets.video.@width;
